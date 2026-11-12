@@ -1,0 +1,248 @@
+{
+  "schema_version": 2,
+  "metadata": {
+    "hyperfine_version": "2.0.0",
+    "start_time": "2026-11-10T02:49:36Z",
+    "platform": {
+      "os": "Windows_NT",
+      "architecture": "x86_64"
+    }
+  },
+  "primary_metric": "time_wall_clock",
+  "results": [
+    {
+      "command": "\"C:/Program Files/Eclipse Adoptium/jdk-25.0.5.8-hotspot/bin/java.exe\" -cp java/bench.jar Blur data/photos results/java-vs-cpp-i7-20261109-2137/round2/out-java-blur 12",
+      "name": "Java",
+      "measurements": [
+        {
+          "time_wall_clock": {
+            "value": 6.6071888,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.46875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.15625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.3125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.2704465,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.0625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 5.75,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.3125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.554123,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.3125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 5.984375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.328125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.5517726,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.46875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.109375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.359375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.5128707,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.421875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.046875,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.4801193,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.328125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 5.96875,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.359375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.4680257,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.390625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.0625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.328125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.4824389,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.40625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.09375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.3125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.6603796,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.453125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.125,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.328125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 6.5179745,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 6.421875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 6.046875,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        }
+      ],
+      "summary": {
+        "time_cpu": {
+          "unit": "second",
+          "count": 10,
+          "mean": 6.3734375,
+          "stddev": 0.12157861040061463,
+          "median": 6.4140625,
+          "min": 6.0625,
+          "max": 6.46875
+        },
+        "time_system": {
+          "unit": "second",
+          "count": 10,
+          "mean": 0.3390625,
+          "stddev": 0.025568620226319953,
+          "median": 0.328125,
+          "min": 0.3125,
+          "max": 0.375
+        },
+        "time_user": {
+          "unit": "second",
+          "count": 10,
+          "mean": 6.034375,
+          "stddev": 0.11594830924453652,
+          "median": 6.0546875,
+          "min": 5.75,
+          "max": 6.15625
+        },
+        "time_wall_clock": {
+          "unit": "second",
+          "count": 10,
+          "mean": 6.510533959999999,
+          "stddev": 0.10361287473932516,
+          "median": 6.5154226,
+          "min": 6.2704465,
+          "max": 6.6603796
+        }
+      }
+    }
+  ]
+}

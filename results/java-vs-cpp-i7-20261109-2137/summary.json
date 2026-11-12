@@ -1,0 +1,101 @@
+{
+  "cpp-hello": {
+    "test": 0,
+    "label": "C++ hello",
+    "runs": 150,
+    "median_s": 0.0028,
+    "min_s": 0.0026,
+    "max_s": 0.0046,
+    "plain_median_s": 0.0034
+  },
+  "java-hello": {
+    "test": 0,
+    "label": "Java hello",
+    "runs": 150,
+    "median_s": 0.0375,
+    "min_s": 0.0349,
+    "max_s": 0.059,
+    "plain_median_s": 0.0379
+  },
+  "cpp-gzip": {
+    "test": 1,
+    "label": "C++ zlib",
+    "runs": 50,
+    "median_s": 3.2091,
+    "min_s": 3.15,
+    "max_s": 3.3735,
+    "plain_median_s": 3.2268
+  },
+  "java-gzip": {
+    "test": 1,
+    "label": "Java java.util.zip",
+    "runs": 50,
+    "median_s": 3.5713,
+    "min_s": 3.5082,
+    "max_s": 4.1027,
+    "plain_median_s": 3.562
+  },
+  "cpp-blur": {
+    "test": 2,
+    "label": "C++ clang -O2",
+    "runs": 50,
+    "median_s": 2.3256,
+    "min_s": 2.2932,
+    "max_s": 2.4515,
+    "plain_median_s": 2.3353
+  },
+  "cpp-blur-native": {
+    "test": 2,
+    "label": "C++ -O3 -march=native",
+    "runs": 50,
+    "median_s": 1.9117,
+    "min_s": 1.8681,
+    "max_s": 2.0098,
+    "plain_median_s": 1.9438
+  },
+  "java-blur": {
+    "test": 2,
+    "label": "Java",
+    "runs": 50,
+    "median_s": 6.5492,
+    "min_s": 6.2545,
+    "max_s": 7.1262,
+    "plain_median_s": 6.5375
+  },
+  "java-blur-nosuperword": {
+    "test": 2,
+    "label": "Java, SuperWord off",
+    "runs": 50,
+    "median_s": 6.5641,
+    "min_s": 6.2453,
+    "max_s": 6.8949,
+    "plain_median_s": 6.5995
+  },
+  "cpp-trees": {
+    "test": 3,
+    "label": "C++ make_unique",
+    "runs": 50,
+    "median_s": 8.4585,
+    "min_s": 8.1733,
+    "max_s": 8.8603,
+    "plain_median_s": 8.4159
+  },
+  "cpp-trees-arena": {
+    "test": 3,
+    "label": "C++ arena (pmr)",
+    "runs": 50,
+    "median_s": 0.9731,
+    "min_s": 0.9382,
+    "max_s": 1.0149,
+    "plain_median_s": 0.9613
+  },
+  "java-trees": {
+    "test": 3,
+    "label": "Java new, G1 GC",
+    "runs": 50,
+    "median_s": 1.3388,
+    "min_s": 1.3002,
+    "max_s": 1.4271,
+    "plain_median_s": 1.3303
+  }
+}

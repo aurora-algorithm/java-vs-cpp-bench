@@ -1,0 +1,248 @@
+{
+  "schema_version": 2,
+  "metadata": {
+    "hyperfine_version": "2.0.0",
+    "start_time": "2026-11-10T02:58:28Z",
+    "platform": {
+      "os": "Windows_NT",
+      "architecture": "x86_64"
+    }
+  },
+  "primary_metric": "time_wall_clock",
+  "results": [
+    {
+      "command": "\"C:/Program Files/Eclipse Adoptium/jdk-25.0.5.8-hotspot/bin/java.exe\" -cp java/bench.jar Gzip data/corpus.tar results/java-vs-cpp-i7-20261109-2137/round3/out-java-gzip",
+      "name": "Java java.util.zip",
+      "measurements": [
+        {
+          "time_wall_clock": {
+            "value": 3.6051507000000003,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.546875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.40625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.140625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.6266524,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.1875,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5437922,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.515625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.359375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.15625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5745084,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.40625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.15625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5630378,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5511532,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.484375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.078125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5338643000000003,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.53125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.4375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.09375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5600468000000003,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.609375,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.23437500000000003,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5318258,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.578125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.4375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.140625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5722059,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.515625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.453125,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.0625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        }
+      ],
+      "summary": {
+        "time_cpu": {
+          "unit": "second",
+          "count": 10,
+          "mean": 3.5484375,
+          "stddev": 0.03330891032358225,
+          "median": 3.5546875,
+          "min": 3.5,
+          "max": 3.609375
+        },
+        "time_system": {
+          "unit": "second",
+          "count": 10,
+          "mean": 0.1375,
+          "stddev": 0.051454537646785294,
+          "median": 0.140625,
+          "min": 0.0625,
+          "max": 0.23437500000000003
+        },
+        "time_user": {
+          "unit": "second",
+          "count": 10,
+          "mean": 3.4109375,
+          "stddev": 0.04104351730176155,
+          "median": 3.40625,
+          "min": 3.359375,
+          "max": 3.484375
+        },
+        "time_wall_clock": {
+          "unit": "second",
+          "count": 10,
+          "mean": 3.5662237500000002,
+          "stddev": 0.03033205966425812,
+          "median": 3.5615423,
+          "min": 3.5318258,
+          "max": 3.6266524
+        }
+      }
+    }
+  ]
+}

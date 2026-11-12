@@ -1,0 +1,248 @@
+{
+  "schema_version": 2,
+  "metadata": {
+    "hyperfine_version": "2.0.0",
+    "start_time": "2026-11-10T03:07:28Z",
+    "platform": {
+      "os": "Windows_NT",
+      "architecture": "x86_64"
+    }
+  },
+  "primary_metric": "time_wall_clock",
+  "results": [
+    {
+      "command": "\"C:/Program Files/Eclipse Adoptium/jdk-25.0.5.8-hotspot/bin/java.exe\" -cp java/bench.jar Gzip data/corpus.tar results/java-vs-cpp-i7-20261109-2137/round4/out-java-gzip",
+      "name": "Java java.util.zip",
+      "measurements": [
+        {
+          "time_wall_clock": {
+            "value": 3.6844413,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.46875,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.09375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.6384399,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.546875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.4375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.109375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5693177,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.578125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.453125,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5800334,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.59375,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.5,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.09375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5898584,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.578125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.4375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.140625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5364116,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.453125,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.109375,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.6283275,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.515625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.140625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.5518205,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.546875,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.390625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.15625,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.6079254,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.5625,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.4375,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 3.613735,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 3.59375,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 3.40625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.1875,
+            "unit": "second"
+          },
+          "exit_code": 0
+        }
+      ],
+      "summary": {
+        "time_cpu": {
+          "unit": "second",
+          "count": 10,
+          "mean": 3.5640625,
+          "stddev": 0.02381068635554679,
+          "median": 3.5625,
+          "min": 3.515625,
+          "max": 3.59375
+        },
+        "time_system": {
+          "unit": "second",
+          "count": 10,
+          "mean": 0.128125,
+          "stddev": 0.029278061088656656,
+          "median": 0.125,
+          "min": 0.09375,
+          "max": 0.1875
+        },
+        "time_user": {
+          "unit": "second",
+          "count": 10,
+          "mean": 3.4359375,
+          "stddev": 0.03715845621195202,
+          "median": 3.4375,
+          "min": 3.375,
+          "max": 3.5
+        },
+        "time_wall_clock": {
+          "unit": "second",
+          "count": 10,
+          "mean": 3.60003107,
+          "stddev": 0.044057447831566725,
+          "median": 3.5988919,
+          "min": 3.5364116,
+          "max": 3.6844413
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "versions": {
+    "java": "openjdk version \"25.0.5\" 2026-10-20 LTS\nOpenJDK Runtime Environment Temurin-25.0.5+8 (build 25.0.5+8-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.5+8 (build 25.0.5+8-LTS, mixed mode, sharing)",
+    "jvm_on_pinned_cores": "cpus 2\nmax_heap 8547991552\ngc G1 Young Generation\ngc G1 Concurrent GC\ngc G1 Old Generation",
+    "jdk_zlib": [
+      "1.3.2"
+    ],
+    "cpp_zlib": "zlib 1.3.2",
+    "clang": "clang version 23.1.5 (https://github.com/llvm/llvm-project 392dfff97d29b59d77e5cac6d4b6ef2585fe7117)",
+    "hyperfine": "hyperfine 2.0.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "ram_bytes": 34185895936,
+    "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)"
+  },
+  "inputs": {
+    "corpus": {
+      "path": "data/corpus.tar",
+      "bytes": 223006720,
+      "sha256": "94dea681579bb4b9036cd7027b5020e3c97d9c19c5cf5ff2471c98b39b9ff607"
+    },
+    "photos": [
+      {
+        "name": "01.rgb",
+        "bytes": 107684168,
+        "sha256": "5f5aaac8e6bf4f2f7b41a57de7189e7f1992cade4e14253c8765562413f13434"
+      },
+      {
+        "name": "02.rgb",
+        "bytes": 115155368,
+        "sha256": "1beec9cd09bf93739238b8380dd63ab8342466988099a95fe5913e67b81a6cc2"
+      },
+      {
+        "name": "03.rgb",
+        "bytes": 85027328,
+        "sha256": "1a7e3c358915a6b412755bd4fd482c10885cb9f6a0cdc10e090e03cd25049ec4"
+      },
+      {
+        "name": "04.rgb",
+        "bytes": 108456968,
+        "sha256": "e046bbef5f9e18a16247d6c41a60b98a98ed5ef98abc346db7ee4400538f6738"
+      }
+    ],
+    "radius": 12,
+    "depth": 20
+  },
+  "rounds": 5,
+  "pinned_cpus": [
+    4,
+    6
+  ],
+  "gate_cpus": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "runs_per_cell": {
+    "0": 30,
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  "pilot": false,
+  "started": "Mon Nov  9 21:37:49 2026"
+}
